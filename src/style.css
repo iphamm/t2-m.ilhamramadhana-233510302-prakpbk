@@ -1,43 +1,53 @@
 :root {
-  --pixel-size: 2px; 
-  --font-family-pixel: 'Press Start 2P', cursive; 
-  --color-background: #eee9c5;
-  --color-background-app: #c6e0bb;
-  --color-text: #83f608; 
-  --color-primary: #C7E8A6; 
-  --color-secondary: #FFDDAA; 
-  --color-border: #333333; 
-  --color-button-bg: #7cc74c;
-  --color-button-text: #333333;
-  --color-input-bg: #FFFFFF;
-  --color-input-text: #333333;
-}
+  --pixel-size: 2px;
+  --font-family-pixel: 'Press Start 2P', cursive;
 
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+  /* Base Colors */
+  --color-background: #2a2c3a; 
+  --color-background-app: #4a4d62; 
+  --color-border: #0f0f0f; 
+
+  /* Text Colors */
+  --color-text-primary: #a7f070; 
+  --color-text-secondary: #FFFFFF; 
+  --color-text-dark: #333333; 
+
+  /* UI Element Colors */
+  --color-primary-ui: #7ac70c; 
+  --color-secondary-ui: #ffb740; 
+  --color-button-bg: #7ac70c;
+  --color-input-bg: #d0d2e0; 
+
+  /* Feedback & Status Colors */
+  --color-correct: #4CAF50; 
+  --color-incorrect: #e64e5d; 
+  --color-score-display: #ff4040; 
+  --color-quiz-complete-title: #00bfff; 
+}
 
 body {
   font-family: var(--font-family-pixel);
-  background-color: var(--color-background);
-  color: black;
+  background-color: var(--color-background); 
+  color: var(--color-text-primary); 
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   margin: 0;
-  overflow: hidden; 
-  text-rendering: optimizeLegibility; 
+  overflow: hidden;
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#app { 
+#app {
   background-color: var(--color-background-app);
   border: var(--pixel-size) solid var(--color-border);
-  box-shadow: 
-    var(--pixel-size) var(--pixel-size) 0 var(--color-primary),
-    calc(var(--pixel-size) * 2) calc(var(--pixel-size) * 2) 0 var(--color-secondary); 
+  box-shadow:
+    var(--pixel-size) var(--pixel-size) 0 var(--color-primary-ui), 
+    calc(var(--pixel-size) * 2) calc(var(--pixel-size) * 2) 0 var(--color-secondary-ui); 
   padding: calc(var(--pixel-size) * 10);
-  border-radius: var(--pixel-size); 
+  border-radius: var(--pixel-size);
   text-align: center;
   max-width: 500px;
   width: 90%;
