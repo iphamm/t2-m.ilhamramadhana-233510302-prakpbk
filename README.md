@@ -8,19 +8,19 @@
 
 ## ✨ Fitur Utama
 
-- ✅ **Pertanyaan Interaktif**  
+- ✅ **Pertanyaan Interaktif**
   Jawab pertanyaan satu per satu dan dapatkan umpan balik instan.
 
-- 🧠 **Sistem Penilaian**  
+- 🧠 **Sistem Penilaian**
   Dapatkan poin untuk jawaban benar dan pengurangan poin untuk jawaban salah.
 
-- 🎨 **Desain Pixel-Art**  
+- 🎨 **Desain Pixel-Art**
   Nikmati tampilan visual yang terinspirasi dari game retro dengan gaya pixel yang unik.
 
-- 📱 **Responsif**  
+- 📱 **Responsif**
   Tampilan yang disesuaikan untuk berbagai ukuran layar — cocok untuk desktop dan mobile.
 
-- 🔁 **Main Lagi**  
+- 🔁 **Main Lagi**
   Setelah kuis selesai, kamu bisa langsung mencoba lagi untuk meningkatkan skor!
 
 ---
@@ -33,39 +33,48 @@ Ikuti langkah-langkah mudah berikut untuk menjalankan Quiztech di lingkungan lok
 
 Pastikan kamu sudah menginstal:
 
-- [Node.js](https://nodejs.org/)  
-- npm (terinstal otomatis dengan Node.js)  
+- [Node.js](https://nodejs.org/)
+- npm (terinstal otomatis dengan Node.js)
 - Atau gunakan [Yarn](https://yarnpkg.com/) sebagai alternatif
 
 ### 🧾 Instalasi dan Kompilasi
 
-1. **Clone repositori ini:**
+1.  **Clone repositori ini:**
 
-```bash
-git clone [URL_REPOSITORI]
-cd [nama-folder-proyek]
+    ```bash
+    git clone [URL_REPOSITORI]
+    cd [nama-folder-proyek]
+    ```
 
-2. **Instal dependensi proyek:**
+2.  **Instal dependensi proyek:**
 
-```bash
-npm install
-atau dengan yarn:
-yarn install
+    ```bash
+    npm install
+    ```
+    atau dengan yarn:
+    ```bash
+    yarn install
+    ```
 
-3. **Jalankan aplikasi dalam mode pengembangan:**
+3.  **Jalankan aplikasi dalam mode pengembangan:**
 
-```bash
-npm run dev
-atau jika dengan yarn:
-yarn dev
+    ```bash
+    npm run dev
+    ```
+    atau jika dengan yarn:
+    ```bash
+    yarn dev
+    ```
 
 ### 🛠️ Teknologi yang Digunakan
 - Vue.js 3 – Framework JavaScript progresif untuk membangun antarmuka pengguna.
 - HTML & CSS – Struktur dan gaya dasar aplikasi.
 - Google Fonts – 'Press Start 2P' – Font khusus untuk efek pixelated.
 
+---
+
 ### 👤 Kontributor
 Proyek ini dikembangkan oleh:
 
-M. ILHAM RAMADHANA
-[🔗 IG](https://www.instagram.com/iphamslife?igsh=b2xtZXljY2IyemQ1)
+**M. ILHAM RAMADHANA**
+- **Instagram:** [iphamslife](https://www.instagram.com/iphamslife?igsh=b2xtZXljY2IyemQ1)
